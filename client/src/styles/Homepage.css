@@ -1,0 +1,76 @@
+
+.banner{
+    height: 500px;
+}
+.home h1{
+    font-family: "Playfair Display", serif;
+    color: gray;
+}
+.home .card .card-img-top{
+    height: "300px";
+}
+.home .card .card-img-top:hover{
+    transform: scale(0.9);
+}
+.home .card{
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+} 
+.home .card-name-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home .card-name-price .card-price{
+  color: green;
+  font-weight: bold;
+}
+.home .card-text {
+    color: rgb(90, 89, 89);
+  }
+.home .details{
+    border-radius: 3px;
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(89, 196, 250);
+} 
+.home .details:hover{
+    transition: all 0.2s ease-in-out;
+    color: white;
+    background-color: rgb(56, 53, 221);
+}
+.home .cart:hover{
+    transition: all 0.2s ease-in-out;
+    color: black;
+    background-color: rgb(228, 220, 220);
+}
+/*=======================filter*/
+.filter h4{
+    margin-top: 100px;
+    color: gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+.ant-checkbox-wrapper:first-of-type{
+    margin-left: 8px;
+}
+.ant-checkbox-wrapper{
+    margin: 10px;
+}
+.ant-radio-wrapper{
+    margin: 8px;
+}
+.filter button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+}
+.loadmore{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}

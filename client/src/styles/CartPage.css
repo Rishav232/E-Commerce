@@ -1,0 +1,21 @@
+.cart-page{
+    margin-top: 50px;
+}
+.cart-page h1{
+    padding: 15px;
+    font-family: "roboto", sans-serif;
+  font-weight: normal;
+  background-color: rgba(0, 0, 255, 0.072) 
+}
+.cart-page h1>h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.cart-page .card-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-page .cart-summary{
+    text-align: center;
+}

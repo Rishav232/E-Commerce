@@ -1,0 +1,60 @@
+/* ==================================Register */
+.login{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg , #ffdee9 0% , #b5fffc 100%);
+  }
+  .login form {
+    box-shadow: rgba(0, 0, 0, 35)0px 5px 15px;
+    padding: 20px;
+    background-color: white;
+    height: 340px;
+  }
+
+  .login form .password{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .login form .email{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+  }
+  .login input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+  }
+  .login form button{
+   border: 1px solid black;
+   border-radius: 0;
+   color: white;
+   width: 250px;
+   background-color: black;
+   margin-top: 30px;
+  }
+  .login form button:hover{
+    border: 1px solid black;
+    background-color: #000;
+    background:linear-gradient(
+      to right,
+      #434343,
+      #000
+    );
+    
+  }
+  .login form h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px
+  }
+  /* ==================================Login */

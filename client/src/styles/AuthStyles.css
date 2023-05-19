@@ -1,0 +1,71 @@
+/* ==================================Register */
+.register{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg , #ffdee9 0% , #b5fffc 100%);
+  }
+  .register form {
+    box-shadow: rgba(0, 0, 0, 35)0px 5px 15px;
+    padding: 20px;
+    background-color: white;
+  }
+  .register form .name{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  .register form .address{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  .register form .password{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  .register form .phone{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  .register form .email{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  .register input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+  }
+  .register form button{
+   border: 1px solid black;
+   border-radius: 0;
+   color: white;
+   width: 250px;
+   background-color: black;
+  }
+  .register form button:hover{
+    border: 1px solid black;
+    background:linear-gradient(
+      to right,
+      #434343,
+      #000
+    );
+  }
+  .register form h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px
+  }
+  /* ==================================Login */
