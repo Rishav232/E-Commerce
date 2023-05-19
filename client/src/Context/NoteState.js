@@ -40,5 +40,3 @@ return (
   // props.children will be all the components inside NotState in app.js
 }
 export default NoteState;
-
-//{{ notes, addNotes, deleteNotes, changeNotes, getNotes, filter, setFilter, applyFilters }}>
